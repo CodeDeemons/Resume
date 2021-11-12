@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+html, body{
+    height: 100%;
+}
+
+.container-fluid{
+    min-height: 100%;
+}
+
+.border-warning{
+    height: 100%;
+}
+
+hr{
+    width: 80%;
+}
+
+.ptags{
+    line-height: 1.5rem;
+}
+
+.kaushan{
+    font-family: 'Kaushan Script', cursive;
+}
+
+span{
+    font-size: 1.2em;
+}
+
+/* Services fa-icon Color */
+.icolor{
+    color: chartreuse;
+}
+
+/* services subtitle color */
+.p-color{
+    color: wheat;
+}
+
+/* change navbar color */
+a.nav-link{
+    color: whitesmoke;
+}
+
+a.nav-link:hover{
+    color: #000;
+    background-color: #e9cd79;
+}
+
+a.nav-link.active{
+    color: #000;
+    background-color: #ffc107;
+    font-weight: 600;
+}

@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}
+    {{ block.super }} Home
+{% endblock title %}
+
+{% block content %}
+    <div class="text-center text-light py-3">
+        <img src="{% static 'core/images/repic.jpg' %}" alt="Profile Pic" class="img-thumbnail" width="250px" height="150px">
+        <div class="text-justify mx-5">
+            <h1 class="font-weight kaushan my-3">Hello...</h1>
+            <div class="px-4 ptags">
+                <p style="text-indent:100px">I am <span class="text-success kaushan"> Rashmi Kaur </span> having 5 years of experience of full-stack development experience for global business, I offer the technical expertise you are seeking for your web developer position. </p><br>
+                <p>Since I have earned my Bachelor's Degree in Masters of Computer Applications from A.S College, Deoghar, Jharkhand which is a branch of Sido Kanhu Murmu University, Dumka. I have build lots of projects as <span class="text-warning kaushan"> Code Demons </span> using different languages including html, css, js, jquery as frontend and php, java, python as backend connectivity. I have also used some frameworks like Spring Boot, Django and Laravel. </p><br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates blanditiis architecto velit, dolore cupiditate ad officia quaerat culpa iure voluptatem, ea, quisquam soluta. Provident dolor fugiat asperiores inventore perspiciatis similique, quos saepe nulla adipisci recusandae officiis illum velit minus neque iusto praesentium omnis accusantium assumenda a totam. Odio voluptates asperiores qui alias.</p>
+            </div>
+        </div>
+        <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+        <a href="{% url 'contact' %}" class="btn btn-outline-info my-3 mr-5">Contact</a>
+    </div>
+{% endblock content %}
